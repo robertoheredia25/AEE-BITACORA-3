@@ -10,5 +10,7 @@ El estandar Syslog es el registro de las distribuciones Unix/linux.Para organiza
  ## Además, responde a esto: ¿Por qué es una negligencia grave que el archivo /var/log/auth.log tenga permisos de lectura para usuarios no privilegiados?
 Porque un usuario sin privilegio accediera a auth.log seria la posivilidad de que un usuario quiera entrar a nuestro servidor sin permiso remotamente y ese es el arcgivo log que guarda los intentos de acceso no permitidos lo que podria hacer que borrara las pruebas.
 
+## ¿Qué información específica (como PIDs, nombres de usuario o direcciones IP) diferencia un intento fallido de conexión remota SSH de un simple fallo de contraseña de un usuario local frente a la pantalla?
+
 
 
