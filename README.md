@@ -22,3 +22,13 @@ Invalid user [usuario] from [IP]... Intento de fuerza bruta
 PAM [número] more authentication failures; logname= uid=0 euid=0 tty=:0 ruser=.... Inicio de sesion fallido por contraseña ejemplo
 
 ## Reto de Investigación 2
+# Cumplimiento y Log Management. Busca en Dialnet o Semantic Scholar artículos sobre Log Management (Gestión centralizada de registros). A nivel empresarial y legal (piensa en el RGPD en España), ¿qué ventajas vitales ofrece enviar y custodiar los logs en un servidor externo seguro en lugar de mantenerlos dispersos e indefensos en la propia máquina que podría ser vulnerada?
+
+La gestion centralizada o log management no es solo uan buena pratica tecnologica en el panorama actual en el mundo de la ciberseguirdad y normativas relacionadas es una necesidad critica. Tal y como señala la literatura academica e investigaciones indexadas en bases de datos como Dialnet la capacidad de recolectar corelacionar y proteger los log siendo su proposito primordial la seguridad.
+Esto lo que hace es no tener los log dentro del equipo que pudieran hackear
+
+
+
+
+
+
