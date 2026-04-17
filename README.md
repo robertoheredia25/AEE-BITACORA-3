@@ -12,5 +12,10 @@ Porque un usuario sin privilegio accediera a auth.log seria la posivilidad de qu
 
 ## ¿Qué información específica (como PIDs, nombres de usuario o direcciones IP) diferencia un intento fallido de conexión remota SSH de un simple fallo de contraseña de un usuario local frente a la pantalla?
 
+Si es un intento fallido de ssh te sañe sshd daemon que muestra que han intentado entrar al servidor atra vez de ssh otra cosa que lo canta todo es la dirrecion de ip de origen  y el pid corresponde con un sshd y no con un inicio de sesion local 
 
+# Mensajes clave
 
+Failed password for [usuario] from [IP] port [puerto] ssh2.
+Invalid user [usuario] from [IP]... Intento de fuerza bruta
+PAM [número] more authentication failures; logname= uid=0 euid=0 tty=:0 ruser=.... Inicio de sesion fallido por contraseña ejemplo
